@@ -6,6 +6,9 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
+\usepackage{fontenc}
+\usepackage{helvet}
+% Define Poppins font
 
 \usepackage{fontawesome5}
 \usepackage{latexsym}
@@ -63,25 +66,26 @@
 
 %----------HEADING----------%
 \input{src/heading}
+% \input{src/summary}
 
 %-----------EDUCATION-----------%
-\input{src/Profile.tex}
-\input{src/skills.tex}
+
 
 %-----------EXPERIENCE-----------%
+\input{src/experience}
 
 
 %-----------PROJECTS-----------%
 \input{src/projects}
 
 %-----------SKILLS-----------%
-
+\input{src/skills.tex}
 \input{src/education.tex}
 
-\input{src/publication}
-\input{src/Certifications}
 
+% \input{src/publication}
 
+% \input{src/Certifications}
 %-------------------------------------------%
 
 \end{document}
